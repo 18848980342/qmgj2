@@ -1,0 +1,33 @@
+<div class="personalInfo">
+	<table cellspacing="20px">
+		<tr>
+			<td>修改图像</td>
+			<td><a href="#"><img src="images/personalInfo-img1.png" alt=""></a></td>
+		</tr>
+		<tr>
+			<td>用户昵称</td>
+			<td><input class="txt" type="text" name="" value="" placeholder=""></td>
+		</tr>
+		<tr>
+			<td>性别</td>
+			<td>
+				<input type="radio" name="sex">男
+				<input type="radio" name="sex">女
+			</td>
+		</tr>
+		<tr>
+			<td>关注圈子</td>
+			<td class="clear">
+				<ul>
+					<li class="check-box" ng-repeat="txt in checkList" ng-click="checkBoxFn($index)">
+						<span class="check" ng-class="{checkBg:arr[$index]}"></span>
+						<span class="check-txt">{{txt.concern}}</span>
+					</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="save"><a href="#">保存</a></td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,200 @@
+<div class="banner">
+	<a class="banner-a" href="#">
+		<img ng-src="images/home-ban1.png" ng-show="showIndex == 0" alt="">
+		<img ng-src="images/detail-img1.png" ng-show="showIndex == 1" alt="">
+	</a>
+
+	<div>
+		<h1>{{showh1}}</h1>
+		<p>{{showp}}</p>
+		<a ui-sref="detail">查看项目</a>
+	</div>
+	<span class="prev iconfont icon-rArrow" ng-click="prev()"></span>
+	<span class="next iconfont icon-lArrow" ng-click="next()"></span>
+</div>
+
+<div class="main">
+	<div class="mainof1">
+		<div class="container clear">
+			<!-- 左边内容开始 -->
+			<div class="mainof1-left">
+				<div class="title clear">
+					<h2>热门项目</h2>
+					<a ui-sref="more">查看更多</a>
+				</div>
+				<!-- <section>块级元素，将div换成它也可以</section> -->
+				<div class="title-down clear">
+				<!-- 图片显示 -->
+					<a ui-sref="img"><img src="images/home-adv1.png" alt=""></a>
+					<!-- 文字说明 -->
+					<div class="title-down-r">
+						<h3>《晚秋》再现舞台</h3>
+						<p class="fromBy">by韩国宝蓝影业有限公司</p>
+						<p class="det">《晚秋》根据李满熙导演1966年的同名电影改编而成，影片以美国西雅图为背景，讲述两名男女在异国他乡的爱情故事。</p>
+						<p class="icon">
+							<span class="iconfont icon-label"></span>话剧
+							<span class="iconfont icon-tv"></span>卫视推荐
+						</p>
+						<div class="process">
+							<div class="processChild" style="width: 30%;"></div>
+						</div>
+						<img src="images/home-progress-bar1.png" alt="">
+						<!-- <div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width: 48%;">
+						  </div>
+						</div> -->
+						<ul class="clear">
+							<li>
+								<p>48%</p>
+								<p>进度</p>
+							</li>
+							<li>
+								<p>￥15,498</p>
+								<p>支持金额</p>
+							</li>
+							<li>
+								<p>173</p>
+								<p>支持者</p>
+							</li>
+							<li>
+								<p>6</p>
+								<p>剩余天数</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 左边内容结束 -->
+
+			<!-- 右边导航开始 -->
+			<ul class="mainof1-right">
+				<li ng-repeat="homeRightnav in homeArr1"><a ng-class="{homeHover:homeStatus==$index}" ng-click="clickFun($index)">{{homeRightnav}}</a></li>
+			</ul>
+			<!-- 右边导航结束 -->
+		</div>
+	</div>
+
+	<div class="mainof2">
+		<div class="container">
+			<div class="title clear">
+				<h2>卫视主推</h2>
+				<a ui-sref="more">查看更多</a>
+			</div>
+			<ul class="clear">
+				<li>
+					<a ui-sref="img"><img src="images/home-adv2.png" alt=""></a>
+					<div class="li-bottom">
+						<h4>《犹太人在上海》音乐剧</h4>
+						<p class="fromBy">by恒源祥戏剧创意</p>
+						<p class="det">中国、以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认最具挑战性的艺术形式</p>
+						<p>
+							<span class="iconfont icon-label"></span>音乐剧
+						</p>
+						<img src="images/home-progress-bar2.png" alt="">
+						<ul class="clear">
+							<li>
+								<p>48%</p>
+								<p>进度</p>
+							</li>
+							<li>
+								<p>￥15,498</p>
+								<p>支持金额</p>
+							</li>
+							<li>
+								<p>6</p>
+								<p>剩余天数</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a ui-sref="detail"><img src="images/home-adv3.png" alt=""></a>
+					<div class="li-bottom">
+						<h4>《鬼吹灯》微电影周剧</h4>
+						<p class="fromBy">by上海微影视</p>
+						<p class="det">《鬼吹灯》是一部中国大陆的网络小说，作者为天下霸唱，主要内容是盗墓寻宝</p>
+						<p>
+							<span class="iconfont icon-label"></span>音乐剧
+						</p>
+						<img src="images/home-progress-bar3.png" alt="">
+						<ul class="clear">
+							<li>
+								<p>48%</p>
+								<p>进度</p>
+							</li>
+							<li>
+								<p>￥15,498</p>
+								<p>支持金额</p>
+							</li>
+							<li>
+								<p>6</p>
+								<p>剩余天数</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a ui-sref="img"><img src="images/home-adv4.png" alt=""></a>
+					<div class="li-bottom">
+						<h4>《战马》音乐剧</h4>
+						<p class="fromBy">by上海戏剧学院</p>
+						<p class="det">《战马》改编自英国桂冠作家麦克·莫波格的同名小说,是一部影响力很广的</p>
+						<p>
+							<span class="iconfont icon-label"></span>音乐剧
+						</p>
+						<img src="images/home-progress-bar4.png" alt="">
+						<ul class="clear">
+							<li>
+								<p>48%</p>
+								<p>进度</p>
+							</li>
+							<li>
+								<p>￥15,498</p>
+								<p>支持金额</p>
+							</li>
+							<li>
+								<p>6</p>
+								<p>剩余天数</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mainof3">
+		<div class="container">
+			<div class="title clear">
+				<h2>合作单位</h2>
+			</div>
+			<ul class="clear">
+				<li>
+					<a href="http://www.ahtv.cn/" target="_blank">
+						<img src="images/home-sponsor1.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.youku.com/" target="_blank">
+						<img src="images/home-sponsor2.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.pingan.com/" target="_blank">
+						<img src="images/home-sponsor3.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.youku.com/" target="_blank">
+						<img src="images/home-sponsor2.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.ahtv.cn/" target="_blank">
+						<img src="images/home-sponsor1.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

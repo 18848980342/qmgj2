@@ -1,0 +1,80 @@
+.nav {
+  width: 100%;
+  border-bottom: 1px solid #d9d9de;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+.nav ul li {
+  float: left;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+.nav ul li a {
+  font-size: 14px;
+  color: #4d4d4d;
+  padding: 9px;
+}
+.nav ul li a.listHover {
+  background: #ff4200;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  color: #fff;
+}
+.detail-list {
+  padding-top: 50px;
+  background: #fff;
+}
+.detail-list .img-list li {
+  float: left;
+  border: 1px solid #dedee2;
+  width: 28.4%;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-right: 7.25%;
+  margin-bottom: 30px;
+}
+.detail-list .img-list li:nth-child(3n) {
+  margin-right: 0px;
+}
+.detail-list .img-list li .li-bottom {
+  padding: 0px 10px;
+}
+.detail-list .img-list li .li-bottom h4 {
+  font-size: 14px;
+}
+.detail-list .img-list li .li-bottom .fromBy {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.detail-list .img-list li .li-bottom .det {
+  margin-bottom: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.detail-list .img-list li .li-bottom ul li {
+  float: left;
+  border: 0 none;
+  margin-right: 10px;
+  width: 50px;
+  text-align: center;
+}
+.detail-list .page-num {
+  margin: 0px auto;
+  width: 470px;
+  padding-bottom: 64px;
+}
+.detail-list .page-num li {
+  float: left;
+  margin-right: 10px;
+  padding: 12px 15px;
+  border: 1px solid #e0e0e4;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  cursor: pointer;
+}
+.detail-list .page-num li:hover {
+  background: #ff4200;
+  color: #fff;
+}

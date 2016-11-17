@@ -1,0 +1,103 @@
+.main-r-up {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 30px 45px 55px 37px;
+  margin-bottom: 15px;
+}
+.main-r-up .main-r-title {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #d9d9de;
+  margin-bottom: 30px;
+}
+.main-r-up .main-r-title span {
+  padding-left: 5px;
+  border-left: 4px solid #43aefc;
+  color: #150b09;
+  line-height: 16px;
+  font-weight: bolder;
+}
+.main-r-up ul .parent-li {
+  float: left;
+  width: 47%;
+  margin-right: 6%;
+}
+.main-r-up ul .parent-li:nth-child(2n) {
+  margin-right: 0px;
+}
+.main-r-up ul .parent-li li {
+  padding-right: 30px;
+  border: 1px solid #dcdce0;
+  margin-bottom: 22px;
+}
+.main-r-up ul .parent-li li img {
+  float: left;
+  margin-right: 20px;
+}
+.main-r-up ul .parent-li li .r-txt {
+  float: right;
+  padding-top: 20px;
+}
+.main-r-up ul .parent-li li .r-txt h3 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-r-up ul .parent-li li .r-txt .r-txt-from {
+  margin-bottom: 15px;
+}
+.main-r-up ul .parent-li li .r-txt img {
+  margin-bottom: 10px;
+}
+.main-r-up ul .parent-li li .r-txt span {
+  color: #150b09;
+  font-weight: bolder;
+}
+.main-r-down {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 30px 45px 55px 37px;
+}
+.main-r-down .main-r-title {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #d9d9de;
+  margin-bottom: 30px;
+}
+.main-r-down .main-r-title span {
+  padding-left: 5px;
+  border-left: 4px solid #43aefc;
+  color: #150b09;
+  line-height: 16px;
+  font-weight: bolder;
+}
+.main-r-down ul li {
+  float: left;
+  border: 1px solid #dedee2;
+  width: 28%;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-right: 8%;
+}
+.main-r-down ul li:last-child {
+  margin-right: 0px;
+}
+.main-r-down ul li h4 {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.main-r-down ul li .det {
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+.main-r-down ul li ul {
+  padding: 10px 0px 15px 10px;
+}
+.main-r-down ul li ul li {
+  float: left;
+  border: 0 none;
+  margin-right: 10px;
+  width: 50px;
+  text-align: center;
+}
+.main-r-down ul li ul li p {
+  color: #150b09;
+  font-weight: bolder;
+}

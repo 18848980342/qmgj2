@@ -1,0 +1,73 @@
+{	
+	"bank": [
+		{
+			"bank1": "images/pay-img2.png"
+		},
+		{
+			"bank1": "images/pay-img3.png"
+		},
+		{
+			"bank1": "images/pay-img4.png"
+		},
+		{
+			"bank1": "images/pay-img5.png"
+		},
+		{
+			"bank1": "images/pay-img2.png"
+		},
+		{
+			"bank1": "images/pay-img3.png"
+		},
+		{
+			"bank1": "images/pay-img4.png"
+		},
+		{
+			"bank1": "images/pay-img5.png"
+		},
+		{
+			"bank1": "images/pay-img2.png"
+		},
+		{
+			"bank1": "images/pay-img3.png"
+		},
+		{
+			"bank1": "images/pay-img4.png"
+		},
+		{
+			"bank1": "images/pay-img5.png"
+		},
+		{
+			"bank1": "images/pay-img2.png"
+		},
+		{
+			"bank1": "images/pay-img3.png"
+		},
+		{
+			"bank1": "images/pay-img4.png"
+		},
+		{
+			"bank1": "images/pay-img5.png"
+		},
+		{
+			"bank1": "images/pay-img3.png"
+		},
+		{
+			"bank1": "images/pay-img4.png"
+		},
+		{
+			"bank1": "images/pay-img5.png"
+		}
+	],
+	"check": [
+		{"concern": "微电影"},
+		{"concern": "电影"},
+		{"concern": "电视剧"},
+		{"concern": "戏曲"},
+		{"concern": "相声"},
+		{"concern": "话剧"},
+		{"concern": "书画"},
+		{"concern": "戏剧"},
+		{"concern": "音乐剧"},
+		{"concern": "歌剧"}
+	]
+}

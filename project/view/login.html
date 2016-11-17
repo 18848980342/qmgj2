@@ -1,0 +1,23 @@
+<div class="container">
+	<form class="clear" action="" name="myForm" ng-model="myForm" novalidate>
+		<h1>登录</h1>
+    	<input class="intxt" type="text" name="phone" placeholder="请输入您的手机号码" ng-model="phone" ng-pattern='/^(1[3456789][0-9]{9})$/' required>
+    	<p class="tip-red" ng-show="myForm.phone.$error.pattern">您输入的号码有误，请检查！</p>
+
+    	<input class="intxt" type="text" name="password" placeholder="请输入您的密码" ng-model="password" ng-minlength='6' ng-maxlength="14" required>
+    	<span class="tip-red" ng-show="myForm.password.$dirty && myForm.password.$error.required">密码错误，请重新输入！</span>
+    	<a ui-sref="findpassword"><span class="right">忘记密码</span></a>
+
+    	<a class="login" ng-click="clickFun()" ng-style="{background:myForm.$valid?'#f00':'#2bde73'}">登录</a>
+
+    	<div ng-click="clickFun(0)"><span class="check" ng-class="{checkBg: arr[0]}"></span>记住我</div>
+
+    	<p class="other-way">第三方登录</p>
+    	<div class="icon">
+    		<a ui-sref="login" class="iconfont icon-weixin"></a>
+    		<a ui-sref="login" class="iconfont icon-qq"></a>
+    		<a ui-sref="login" class="iconfont icon-weibo"></a>
+    	</div>
+	</form>
+	<div class="new">新用户？<a ui-sref="register">立即注册</a></div>
+</div>

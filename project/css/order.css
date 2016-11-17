@@ -1,0 +1,87 @@
+.order {
+  width: 100%;
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+.order .top {
+  margin-bottom: 60px;
+}
+.order .top h4 {
+  float: left;
+}
+.order .top img {
+  float: right;
+  padding-right: 20px;
+}
+.order .center {
+  background: #f7fafa;
+  border: 1px solid #dbdbe0;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding-bottom: 20px;
+}
+.order .center .title {
+  width: 100%;
+  border-bottom: 1px solid #dbdbe0;
+  padding: 15px 0px 15px 25px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  line-height: 30px;
+}
+.order .center .title span {
+  color: #ff4200;
+  font-size: 20px;
+}
+.order .center .content {
+  line-height: 24px;
+  padding: 30px 70px 15px 25px;
+}
+.order .center .content .sum {
+  float: left;
+  width: 7%;
+}
+.order .center .content .content-r {
+  float: left;
+  width: 90%;
+}
+.order .center .content .content-r p {
+  color: #150b09;
+  font-size: 14px;
+  line-height: 24px;
+}
+.order .center .content .content-r p:last-child {
+  margin-top: 10px;
+}
+.order .center .content .content-r textarea {
+  padding: 10px;
+  border: 1px solid #e3e3e7;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+.order .center .content .content-r span {
+  color: #ff4200;
+}
+.order .center .content .content-r input {
+  padding: 5px 8px;
+  width: 8%;
+}
+.order .bottom {
+  padding: 35px 0px 85px 20px;
+}
+.order .bottom h5 {
+  margin-bottom: 15px;
+}
+.order .bottom .last-h5 {
+  margin-top: 20px;
+}
+.order .bottom a {
+  background: #ff4200;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  width: 17%;
+  margin-top: 45px;
+}

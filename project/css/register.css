@@ -1,0 +1,80 @@
+body {
+  background: #f7fafa;
+}
+body header {
+  background: #fff;
+}
+body form {
+  width: 400px;
+  margin: 65px auto 0px auto;
+  background: #fff;
+  padding: 30px 20px 20px 20px;
+}
+body form h1 {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+body form .intxt {
+  width: 100%;
+  border: 1px solid #dcdce0;
+  line-height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 15px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-bottom: 10px;
+}
+body form .intxt:focus {
+  border-color: #11a6ff;
+}
+body form .tip-red {
+  color: #f00;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+body form .login {
+  width: 100%;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+body form .other-way {
+  line-height: 16px;
+  color: #150b09;
+  text-align: center;
+  margin: 40px 0px 20px 0px;
+}
+body form .icon {
+  text-align: center;
+}
+body form .icon .iconfont {
+  font-size: 30px;
+}
+body form .icon .icon-weixin {
+  color: #02bb00;
+}
+body form .icon .icon-qq {
+  color: #4f94cf;
+}
+body form .icon .icon-weibo {
+  color: #db2920;
+}
+body .new {
+  border: 1px solid #dbdbe0;
+  width: 400px;
+  margin: 0 auto;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-bottom: 70px;
+  text-align: center;
+  line-height: 60px;
+}
+body .new a {
+  color: #00a0ff;
+  font-weight: bolder;
+}

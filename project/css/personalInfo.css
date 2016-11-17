@@ -1,0 +1,49 @@
+.personalInfo {
+  background: #fff;
+  padding: 40px 0px 60px 60px;
+}
+.personalInfo tr td:first-child {
+  text-align: right;
+  color: #150b09;
+}
+.personalInfo tr td .txt {
+  border: 1px solid #dbdbe0;
+}
+.personalInfo tr td ul {
+  width: 380px;
+}
+.personalInfo tr td ul .check-box {
+  float: left;
+  width: 60px;
+  margin-right: 35px;
+  position: relative;
+  cursor: pointer;
+  line-height: 35px;
+}
+.personalInfo tr td ul .check-box .check {
+  display: inline-block;
+  border: 1px solid #d9d9d5;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.personalInfo tr td ul .check-box .check.checkBg {
+  background: url("../images/personalInfo-img2.png") center center no-repeat;
+}
+.personalInfo tr td ul .check-box .check-txt {
+  margin-left: 22px;
+}
+.personalInfo tr td.save {
+  text-align: left;
+}
+.personalInfo tr td.save a {
+  width: 140px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background: #ff4200;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}

@@ -1,0 +1,69 @@
+.personal-top {
+  background: #effaff;
+  border-bottom: 1px solid #d9d9de;
+  margin-bottom: 12px;
+}
+.personal-top .container {
+  padding: 35px 79px 35px 60px;
+}
+.personal-top .container .top-l {
+  float: left;
+  margin-right: 65px;
+}
+.personal-top .container .top-l div {
+  text-align: center;
+  margin-top: 15px;
+}
+.personal-top .container .top-l div a {
+  width: 22px;
+  line-height: 22px;
+  background: #b5e3f6;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  text-align: center;
+  color: #fff;
+}
+.personal-top .container .top-r {
+  float: left;
+  padding: 25px 0px 20px 0px;
+  width: 70%;
+}
+.personal-top .container .top-r p:first-child {
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 25px;
+  font-size: 18px;
+  color: #150b09;
+  font-weight: bolder;
+}
+.personal-top .container .top-r .personal-safe {
+  margin-top: 40px;
+  margin-bottom: 14px;
+  line-height: 16px;
+  font-size: 14px;
+}
+.personal-main {
+  margin-bottom: 60px;
+}
+.personal-main .personal-main-l {
+  background: #fff;
+  float: left;
+  width: 14%;
+  border: 1px solid #eee;
+  padding-top: 35px;
+  text-align: center;
+}
+.personal-main .personal-main-l a {
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 7px;
+  border-bottom: 1px dashed #e4e4e7;
+  margin-bottom: 25px;
+}
+.personal-main .personal-main-l a.personalHover {
+  color: #ff4200;
+  border-color: #ff4200;
+}
+.personal-main .personal-main-r {
+  float: right;
+  width: 85%;
+}

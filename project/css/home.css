@@ -1,0 +1,192 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.banner .banner-a {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner-a img {
+  width: 100%;
+  height: 100%;
+}
+.banner div {
+  z-index: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.banner div h1 {
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner div p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.banner div a {
+  background: #ff4200;
+  color: #fff;
+  line-height: 40px;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+}
+.banner .icon-rArrow {
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  font-size: 45px;
+  cursor: pointer;
+}
+.banner .icon-lArrow {
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  font-size: 45px;
+  cursor: pointer;
+}
+.main {
+  width: 100%;
+}
+.main .mainof1 {
+  background: #f7fafa;
+  padding-top: 50px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid #d9d9de;
+}
+.main .mainof1 .mainof1-left {
+  float: left;
+  width: 75%;
+  margin-right: 5%;
+}
+.main .mainof1 .mainof1-left .title {
+  margin-bottom: 38px;
+}
+.main .mainof1 .mainof1-left .title h2 {
+  float: left;
+}
+.main .mainof1 .mainof1-left .title a {
+  float: right;
+  line-height: 30px;
+}
+.main .mainof1 .mainof1-left .title-down {
+  line-height: 18px;
+}
+.main .mainof1 .mainof1-left .title-down img {
+  float: left;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r {
+  float: right;
+  width: 60%;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r .fromBy {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r .det {
+  margin-bottom: 35px;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r .icon {
+  line-height: 30px;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r .process {
+  width: 490px;
+  height: 8px;
+  background: #d9d9de;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.main .mainof1 .mainof1-left .title-down .title-down-r ul li {
+  float: left;
+  margin-right: 25px;
+}
+.main .mainof1 .mainof1-right {
+  float: left;
+  width: 20%;
+  padding: 8px 0px;
+  border-left: 1px solid #dadada;
+  line-height: 30px;
+}
+.main .mainof1 .mainof1-right li a {
+  color: #150b09;
+  padding-left: 20px;
+  border-left: 2px solid transparent;
+}
+.main .mainof1 .mainof1-right li a.homeHover {
+  color: #ff4200;
+  border-left: 2px solid #ff4200;
+}
+.main .mainof2 {
+  padding: 30px 0px 74px;
+  border-bottom: 1px solid #d9d9de;
+  background: #fff;
+}
+.main .mainof2 .title {
+  margin-bottom: 38px;
+}
+.main .mainof2 .title h2 {
+  float: left;
+}
+.main .mainof2 .title a {
+  float: right;
+  line-height: 30px;
+}
+.main .mainof2 ul li {
+  float: left;
+  border: 1px solid #dedee2;
+  width: 28.4%;
+  border-radius: 5px;
+  margin-right: 7.25%;
+  padding-bottom: 15px;
+}
+.main .mainof2 ul li:last-child {
+  margin-right: 0px;
+}
+.main .mainof2 ul li .li-bottom {
+  padding: 0px 10px;
+}
+.main .mainof2 ul li .li-bottom h4 {
+  font-size: 14px;
+}
+.main .mainof2 ul li .li-bottom .fromBy {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.main .mainof2 ul li .li-bottom .det {
+  margin-bottom: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main .mainof2 ul li .li-bottom ul li {
+  float: left;
+  border: 0 none;
+  margin-right: 10px;
+  width: 50px;
+  text-align: center;
+}
+.main .mainof3 {
+  background: #fff;
+}
+.main .mainof3 .title {
+  padding: 60px 0px;
+}
+.main .mainof3 ul {
+  padding-bottom: 87px;
+}
+.main .mainof3 ul li {
+  float: left;
+  width: 18%;
+  margin-right: 2.5%;
+}
+.main .mainof3 ul li:last-child {
+  margin-right: 0px;
+}

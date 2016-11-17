@@ -1,0 +1,57 @@
+<div class="nav">
+	<div class="container">
+		<ul class="clear">
+			<li ng-repeat="nav1 in listArr1"><a ng-class="{listHover:listStatus1==$index}" ng-click="clickFun1($index)" ui-sref="list">{{nav1}}</a></li>
+		</ul>
+		<ul class="clear">
+			<li ng-repeat="nav2 in listArr2"><a ng-class="{listHover:listStatus2==$index}" ng-click="clickFun2($index)" ui-sref="list">{{nav2}}</a></li>
+		</ul>
+		<ul class="clear">
+			<li ng-repeat="nav3 in listArr3"><a ng-class="{listHover:listStatus3==$index}" ng-click="clickFun3($index)" ui-sref="list">{{nav3}}</a></li>
+		</ul>		
+	</div>
+</div>
+
+<div class="detail-list">
+	<div class="container">
+		<ul class="img-list clear">
+			<li ng-repeat="obj in list|filter:myFilterModel">
+				<a ui-sref="detail"><img ng-src="{{obj.img1}}" alt=""></a>
+				<div class="li-bottom">
+					<h4>{{obj.vname}}</h4>
+					<p class="fromBy">{{obj.from}}</p>
+					<p class="det">{{obj.det}}</p>
+					<p>
+						<span class="iconfont icon-label"></span>{{obj.kind}}
+					</p>
+					<img ng-src="{{obj.img2}}" alt="">
+					<ul class="clear">
+						<li>
+							<p>{{obj.percent}}</p>
+							<p>{{obj.pertxt}}</p>
+						</li>
+						<li>
+							<p>{{obj.price}}</p>
+							<p>{{obj.pricetxt}}</p>
+						</li>
+						<li>
+							<p>{{obj.day}}</p>
+							<p>{{obj.daytxt}}</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<ul class="page-num clear">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>...</li>
+			<li>&gt;</li>
+			<li>尾页</li>
+		</ul>
+	</div>
+</div>

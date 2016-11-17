@@ -1,0 +1,36 @@
+<div class="pay">
+	<div class="container">
+		<div class="top clear">
+			<div class="top-l">
+				<h4>《犹太人在上海》音乐剧</h4>
+				<span>订单号：4496480277289</span>
+				<span>请您在<mark>24小时</mark>内付清款项，否则订单会被自动取消。</span>
+			</div>
+			<img src="images/pay-img1.png" alt="">
+		</div>
+		<div class="center">
+			<div class="title clear">
+				<div class="title-l">
+					<span ng-click="clickFn(0)" ng-class="{payWaybg: activeIndex == 0}">快捷支付</span>
+					<span ng-click="clickFn(1)" ng-class="{payWaybg: activeIndex == 1}">网银支付</span>
+				</div>
+				<p>应付款&nbsp;&nbsp;&nbsp;<span>￥5.00</span></p>
+			</div>
+			<div class="pay-ways quick-pay" ng-show="contentIndex == 0">
+				<p class="choose">请选择银行：</p>
+				<ul class="clear">
+					<li class="radio-box" ng-repeat="img in bankList" ng-click="radioBoxFn1($index)">
+						<span class="radio" ng-class="{radioBg:radioBoxFn1Show == $index}"></span>
+						<img class="bank" ng-src="{{img.bank1}}" alt="">
+					</li>
+				</ul>
+			</div>
+			<div class="pay-ways online-pay"  ng-show="contentIndex == 1">
+				<p>网银支付，啥也没有！！！</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<a ui-sref="paied">确认支付</a>
+		</div>
+	</div>
+</div>

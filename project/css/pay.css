@@ -1,0 +1,105 @@
+.pay {
+  width: 100%;
+  background: #fff;
+}
+.pay .container {
+  padding: 70px 45px 85px;
+}
+.pay .container .top {
+  margin-bottom: 30px;
+}
+.pay .container .top .top-l {
+  float: left;
+}
+.pay .container .top .top-l h4 {
+  margin-bottom: 45px;
+}
+.pay .container .top .top-l span {
+  margin-right: 25px;
+}
+.pay .container .top img {
+  float: right;
+}
+.pay .container .center .title {
+  border-bottom: 1px solid #d9d9de;
+}
+.pay .container .center .title .title-l {
+  float: left;
+}
+.pay .container .center .title .title-l span {
+  display: inline-block;
+  border: 1px solid #d9d9de;
+  text-align: center;
+  line-height: 30px;
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pay .container .center .title .title-l span.payWaybg {
+  background: url("../images/pay-bg.png") no-repeat;
+}
+.pay .container .center .title p {
+  float: right;
+  margin-right: 30px;
+}
+.pay .container .center .title p span {
+  color: #ff4200;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.pay .container .center .quick-pay .choose {
+  color: #150b09;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: bolder;
+  margin: 40px 20px;
+}
+.pay .container .center .quick-pay ul {
+  padding-left: 10px;
+}
+.pay .container .center .quick-pay ul .radio-box {
+  float: left;
+  margin: 0px 30px 20px 0px;
+  position: relative;
+  cursor: pointer;
+  height: 35px;
+}
+.pay .container .center .quick-pay ul .radio-box .radio {
+  display: inline-block;
+  border: 1px solid #d9d9d5;
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+.pay .container .center .quick-pay ul .radio-box .radio.radioBg {
+  background: url("../images/pay-radio.png") center center no-repeat;
+}
+.pay .container .center .quick-pay ul .radio-box .bank {
+  margin-left: 10px;
+}
+.pay .container .center .online-pay {
+  padding: 20px 0px;
+}
+.pay .container .center .online-pay p {
+  font-size: 23px;
+  font-weight: bolder;
+  text-align: center;
+}
+.pay .container .bottom {
+  padding: 35px 0px 85px;
+  border-top: 1px solid #d9d9de;
+}
+.pay .container .bottom a {
+  background: #ff4200;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  width: 17%;
+  margin-left: 20px;
+}

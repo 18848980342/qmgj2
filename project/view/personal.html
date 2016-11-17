@@ -1,0 +1,29 @@
+<div class="personal-top">
+	<div class="container clear">
+		<div class="top-l">
+			<a href="#"><img src="images/personal-headpic.png" alt=""></a>
+			<div>
+				<a href="#" class="iconfont icon-phone"></a>
+				<a href="#" class="iconfont icon-computer"></a>
+				<a href="#" class="iconfont icon-personal"></a>
+			</div>
+		</div>
+		<div class="top-r">
+			<p>用户HZ17363525 <span>下午好！</span></p>
+			<p class="personal-safe">账户安全等级：<img src="images/personal-mediumsafe.png" alt=""></p>
+			<p>上次登录时间：{{curTime | date:'yyyy-MM-dd hh:mm:ss'}}</p>
+		</div>
+	</div>
+</div>
+<div class="personal-main">
+	<div class="container clear">
+		<ul class="personal-main-l">
+			<li ng-click="clickFun(0)"><a ng-class="{personalHover: personal == 0}" ui-sref="personal.personalPage">个人主页</a></li>
+			<li ng-click="clickFun(1)"><a ng-class="{personalHover: personal == 1}" ui-sref="personal.personalInfo">个人信息</a></li>
+			<li ng-click="clickFun(2)"><a ng-class="{personalHover: personal == 2}" ui-sref="personal.safeSet">安全设置</a></li>
+			<li ng-click="clickFun(3)"><a ng-class="{personalHover: personal == 3}" href="#">关注的圈子</a></li>
+			<li ng-click="clickFun(4)"><a ng-class="{personalHover: personal == 4}" ui-sref="personal.buyHistory">购买记录</a></li>
+		</ul>
+		<div class="personal-main-r" ui-view></div>
+	</div>
+</div>

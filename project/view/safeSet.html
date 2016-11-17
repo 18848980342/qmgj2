@@ -1,0 +1,70 @@
+<div class="safeSet">
+	<div class="safeSet-nav">
+		<span ng-click="clickFn(0)" ng-class="{active: activeIndex==0}">修改密码</span>
+		<span ng-click="clickFn(1)" ng-class="{active: activeIndex==1}">实名认证</span>
+		<span ng-click="clickFn(2)" ng-class="{active: activeIndex==2}">邮箱认证</span>
+	</div>
+	<table class="safeSet-table" cellspacing="20px" ng-show="contentIndex==0">
+		<tr>
+			<td>当前密码</td>
+			<td><input class="txt" type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>新密码</td>
+			<td>
+				<input class="txt" type="text" name="">
+				<span>(密码不小于6位)</span>
+			</td>
+		</tr>
+		<tr>
+			<td>已绑定手机</td>
+			<td><span>13333333333</span></td>
+		</tr>
+		<tr>
+			<td>验证码</td>
+			<td>
+				<input class="txt" type="text" name="">
+				<input class="txt" type="button" value="免费获取验证码">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="save1"><a href="#">保存</a></td>
+		</tr>
+	</table>
+	<table class="safeSet-table" cellspacing="20px" ng-show="contentIndex==1">
+		<tr>
+			<td class="tip" colspan="2">身份证认证由NCIIC提供接口</td>
+		</tr>
+		<tr>
+			<td>姓名</td>
+			<td><input class="txt" type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>身份证号</td>
+			<td>
+				<input class="txt" type="text" name="">
+				<p class="tip-red" ng-show="myForm.password.$dirty && myForm.password.$error.required"><span class="iconfont icon-exclamation"></span>请输入正确的身份证号码</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="save2"><a href="#">保存</a></td>
+		</tr>
+	</table>
+	<table class="safeSet-table" cellspacing="20px" ng-show="contentIndex==2">
+		<tr>
+			<td>邮箱地址</td>
+			<td><input class="txt" type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>验证码</td>
+			<td>
+				<input class="txt" type="text" name="">
+				<input type="button" name="" value="发送验证码">
+				<p class="tip-red" ng-show="myForm.password.$dirty && myForm.password.$error.required">验证码错误，请重新输入！</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="save1"><a href="#">保存</a></td>
+		</tr>
+	</table>
+</div>

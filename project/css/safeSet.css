@@ -1,0 +1,61 @@
+.safeSet {
+  background: #fff;
+  padding: 35px 35px 40px 40px;
+}
+.safeSet .safeSet-nav {
+  padding: 11px 0px;
+  border-bottom: 1px solid #d9d9de;
+}
+.safeSet .safeSet-nav span {
+  padding: 8px 0px;
+  margin-right: 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.safeSet .safeSet-nav span.active {
+  border-bottom: 3px solid #43aefe;
+}
+.safeSet .safeSet-table tr td:first-child {
+  text-align: right;
+  color: #150b09;
+}
+.safeSet .safeSet-table tr td .txt {
+  border: 1px solid #dbdbe0;
+}
+.safeSet .safeSet-table tr td ul {
+  float: left;
+  margin-right: 30px;
+}
+.safeSet .safeSet-table tr td ul li {
+  margin-bottom: 10px;
+}
+.safeSet .safeSet-table tr td .tip-red {
+  color: #ff0101;
+}
+.safeSet .safeSet-table tr td.save1 {
+  text-align: left;
+}
+.safeSet .safeSet-table tr td.save1 a {
+  width: 140px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background: #ff4200;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
+.safeSet .safeSet-table tr td.save2 {
+  text-align: right;
+}
+.safeSet .safeSet-table tr td.save2 a {
+  width: 140px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background: #ff4200;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
+.safeSet .safeSet-table tr td.tip {
+  color: #43aefc;
+}

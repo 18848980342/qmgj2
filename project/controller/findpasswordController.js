@@ -1,0 +1,1 @@
+app.controller('findpasswordController',['$scope',function($scope){}]);
