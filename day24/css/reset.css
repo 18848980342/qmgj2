@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0; font-size: 12px; line-height:20px; -webkit-tap-highlight-color:transparent; -webkit-appearance:none; }
+body{background-color: #feffff;}
+/* -webkit-touch-callout: none;使元素禁止保存 */
+a, img {-webkit-touch-callout: none; }
+/* 是手机滑动的时候更流畅 */
+body{-webkit-overflow-scrolling:touch;}
+body::-webkit-scrollbar{width: 0px;}
+textarea::-webkit-scrollbar{width: 0px;}
+/* 让滚动条消失 */
+div::-webkit-scrollbar{width:0px;}
+/* -webkit-tap-highlight-color:解决元素周围的高亮边框问题 */
+a:focus,input:focus,div:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+img{display: block; border: none 0; width: 100%;}
+input,textarea{border: 0 none; display: block;}
+/* -webkit-appearance:使iOS端的input表单元素的表现正常 */
+input[type=search] { -webkit-appearance: none; }
+::-webkit-search-cancel-button { -webkit-appearance: none; }
+::-webkit-search-results-button { -webkit-appearance: none; }
+.d-block{display: block;}
+.d-none{display: none;}
+.v-none{visibility: hidden;}
+/*文字和li重置*/
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+a{text-decoration: none;color: #232322;}
+li{list-style: none;}
+/*浮动和定位*/
+.fl{float: left;}
+.fr{float: right;}
+.clear:after {clear:both;visibility:hidden;content:"";display:block;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.txt-over1{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: block;}
+

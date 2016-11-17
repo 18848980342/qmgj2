@@ -1,0 +1,54 @@
+*{margin:0;padding:0;}
+img{display:block;}
+html,body{height:100%;}
+.swiper-container {width: 100%;height: 100%;}  
+.swiper-slide{width:100%;height:100%;}
+/* 必备 */
+.ani{position:absolute;}
+.swiper-pagination-bullet-active {opacity: 1;}
+.abs{position: absolute;}
+.rel{position: relative;}
+
+.page1{
+	background: url(../images/index-bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page1 div{width: 100%;height: 100%;top: 0px;left: 0px;}
+.index-img{width: 30%;top: 35%;left: 35%;}
+.index-txt{width: 70%;top: 50%;left: 15%;}
+
+.page2{
+	background: url(../images/index-page2bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page-img{width: 60%;}
+.page-title{top: 20%;left: 20%;}
+.page-a{top: 30%;left: 20%;}
+.page-b{top: 45%;left: 20%;}
+.page-c{top: 60%;left: 20%;}
+.page3{
+	background: url(../images/index-page3bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page4{
+	background: url(../images/index-page4bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page5{
+	background: url(../images/index-page5bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page6{
+	background: url(../images/index-page6bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page6-title{top: 15%;left: 20%;}
+.page6-a{top: 45%;left: 20%;}
+.page6-b{top: 55%;left: 20%;}
+.page6-c{top: 65%;left: 20%;}
+.page7{
+	background: url(../images/index-page7bg.png) top center no-repeat;
+	background-size: cover;
+}
+.page7-btn{width: 20%;bottom: 5%;left: 40%;}
+.index-share{width: 100%;top: 0px;left: 0px;display: none;}
